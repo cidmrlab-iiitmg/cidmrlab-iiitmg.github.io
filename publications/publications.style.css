@@ -1,0 +1,48 @@
+.sub-section {
+  font-size: 2.2rem;
+}
+
+.sub-section-container {
+  margin-bottom: 2rem;
+}
+
+.sub-section-list {
+  padding: 1rem 0 1rem 1rem;
+}
+
+li.sub-section-list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.publication-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+.column * {
+  letter-spacing: 0.06rem;
+}
+
+.right-col * {
+  text-align: right;
+}
+
+.publication-name {
+  font-weight: 500;
+  color: #000269;
+}
+
+.publication-name a {
+  text-decoration: none;
+  color: #000269;
+}
+
+.publication-domain,
+.publication-doi {
+  color: #0b2b40;
+}

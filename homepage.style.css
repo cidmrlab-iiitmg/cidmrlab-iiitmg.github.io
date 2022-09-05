@@ -1,0 +1,14 @@
+/**
+ * @author: Nikhil Gupta (B.Tech CSE, 2019-2023)
+ */
+
+.hero-image-container {
+  height: 40vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,378 @@
+/* 
+* @author: Nikhil Gupta (B.Tech CSE, 2019-2023)
+* @description: This file contains the global css for the website
+*/
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Mono&family=Tiro+Devanagari+Hindi&display=swap");
+
+/* global style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* variables */
+:root {
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Roboto Mono", monospace;
+  --tertiary-font: "Tiro Devanagari Hindi", sans-serif;
+  --max-width: calc(1920px * 0.8); /* 1920 * 0.9 */
+  --global-accent: #0b2b40;
+  --on-global-accent: #fff;
+}
+
+/* header and navigation styles */
+.header-top-section {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-item {
+  flex: 1;
+  height: 4rem;
+}
+
+.padded-container {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.lab-name div {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6rem;
+  color: #000;
+  text-decoration: none;
+  text-align: right;
+}
+
+nav {
+  padding: 0.5rem;
+  background: var(--global-accent);
+}
+
+.nav-links {
+  width: 60rem;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--on-global-accent);
+}
+
+.nav-links a.underline::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: var(--on-global-accent);
+  animation: border-slide 1s ease forwards, fadeIn 1s ease;
+}
+
+/* page styles */
+
+main {
+  animation: fadeIn 1s ease;
+  min-height: 60vh;
+}
+
+.page-content {
+  padding: 2rem 0;
+}
+
+.page-content-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.page-content > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: calc(0.04 * 1rem);
+  margin-bottom: 2.5rem;
+}
+
+/* footer styles */
+footer {
+  background: var(--global-accent);
+  color: var(--on-global-accent);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+footer .footer-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-child:last-child {
+  align-items: flex-end;
+}
+
+.footer-child a {
+  color: var(--on-global-accent);
+}
+
+.institute-name-hindi {
+  max-width: 100%;
+}
+
+.institute-name-hindi-container {
+  text-align: center;
+  font-family: var(--tertiary-font);
+}
+
+.institute-name-hindi-container p {
+  font-size: 1.2rem;
+}
+
+.institute-name-hindi-container p.paragraph-emphasis {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* scroll to top button styles */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--global-accent);
+  color: var(--on-global-accent);
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(0);
+  transform-origin: center;
+  pointer-events: none;
+  border: 1px solid var(--on-global-accent);
+}
+
+.scroll-to-top.show {
+  transform: scale(1);
+  pointer-events: all;
+}
+
+/* fade in keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes border-slide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* cards */
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  min-width: 300px;
+  padding: 2rem 0.5rem;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card-section {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-profile-container {
+  width: 100%;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  font-size: 0.8rem;
+  letter-spacing: calc(0.04 * 1rem);
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.card-subheading {
+  font-weight: 500;
+}
+
+.card-heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: calc(0.04 * 1rem);
+}
+
+.card-links {
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.card-links a {
+  height: 100%;
+  text-decoration: none;
+}
+
+.card-link-icon {
+  height: 100%;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 1024px) {
+  .header-top-section {
+    height: 5rem;
+  }
+
+  .header-item {
+    height: 3rem;
+    flex: unset;
+  }
+
+  .lab-name {
+    flex: 1;
+  }
+
+  .lab-name div {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .institute-name-hindi-container p {
+    font-size: 1rem;
+  }
+
+  .institute-name-hindi-container p.paragraph-emphasis {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  footer * {
+    text-align: left;
+  }
+
+  .footer-child:first-child p {
+    margin-bottom: 1rem;
+  }
+
+  .footer-child:last-child {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-top-section {
+    height: 9vh;
+    min-height: 6vw;
+  }
+
+  .header-item {
+    height: 5vh;
+  }
+
+  .logo-container {
+    width: 35vw;
+  }
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  .lab-name div {
+    font-size: 3vw;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
