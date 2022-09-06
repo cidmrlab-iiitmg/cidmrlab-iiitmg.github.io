@@ -60,6 +60,7 @@ If you are a developer, you can find the source code for this website at:
 https://github.com/cidmrlab-iiitmg/cidmrlab-iiitmg.github.io
 
 Made with ❤️ by Nikhil Gupta (B.Tech CSE, 2019-2023) 🤓.
+https://theninza.me
 https://linkedin.com/in/theninza
 `,
   "font-weight: bold;"
