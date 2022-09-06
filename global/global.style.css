@@ -22,7 +22,7 @@ html {
 :root {
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Roboto Mono", monospace;
-  --tertiary-font: "Tiro Devanagari Hindi", sans-serif;
+  --tertiary-font: "Tiro Devanagari Hindi", serif;
   --max-width: calc(1920px * 0.8); /* 1920 * 0.9 */
   --global-accent: #0b2b40;
   --on-global-accent: #fff;
@@ -155,7 +155,7 @@ footer .footer-title {
   max-width: 100%;
 }
 
-.institute-name-hindi-container {
+.institute-name-hindi-container * {
   text-align: center;
   font-family: var(--tertiary-font);
 }
