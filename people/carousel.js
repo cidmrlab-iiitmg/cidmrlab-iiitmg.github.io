@@ -23,10 +23,6 @@ class Carousel {
       ".carousel-control-right"
     );
 
-    this.isAnimating = false;
-    this.animationIdx = 0;
-    this.animationFrame = null;
-
     this.images = [
       "/assets/people/2.webp",
       "/assets/people/3.webp",
@@ -102,27 +98,13 @@ class Carousel {
       "click",
       this.onRightClick.bind(this)
     );
-
-    this.carouselImages.forEach((image, index) => {
-      image.addEventListener("transitionend", () => {
-        this.animationIdx++;
-        if (this.animationIdx === 2) {
-          this.animationIdx = 0;
-          this.isAnimating = false;
-        }
-      });
-    });
   }
 
   onLeftClick() {
-    if (this.isAnimating) return;
-    this.isAnimating = true;
     this.updateClasses(this.leftImageIndex);
   }
 
   onRightClick() {
-    if (this.isAnimating) return;
-    this.isAnimating = true;
     this.updateClasses(this.rightImageIndex);
   }
 
