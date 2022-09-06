@@ -331,6 +331,14 @@ footer .footer-title {
 }
 
 @media screen and (max-width: 900px) {
+  .page-content {
+    padding: 1rem 0;
+  }
+  .page-content-heading {
+    font-size: 2.5rem;
+    padding: 1.8rem 0;
+  }
+
   .footer-container {
     flex-direction: column;
     gap: 2.5rem;
@@ -374,5 +382,18 @@ footer .footer-title {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+  }
+
+  .page-content-heading {
+    font-size: 2.2rem;
+  }
+
+  .card {
+    min-width: 50vw;
+  }
+
+  .card-profile-container {
+    height: 7rem;
+    width: 7rem;
   }
 }
