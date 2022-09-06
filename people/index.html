@@ -11,6 +11,17 @@
     <title>People</title>
     <link rel="stylesheet" href="/global/global.style.css" />
     <link rel="stylesheet" href="/people/people.style.css" />
+
+    <!-- swiper js imports -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
+
     <!-- defered scripts -->
     <script src="/global/global.app.js" defer></script>
     <script src="/people/carousel.js" defer></script>
@@ -48,7 +59,7 @@
 
     <!-- main section -->
     <main>
-      <div class="carousel-container full-width">
+      <div class="carousel-container full-width swiper">
         <!-- overlay -->
         <div class="carausel-background-overlay-container">
           <img
@@ -59,30 +70,36 @@
         </div>
 
         <!-- controls -->
-        <div class="carousel-controls-container">
-          <div class="carousel-control carousel-control-left">
-            <img
-              src="/assets/people/left-arrow.svg"
-              alt="left-arrow"
-              class="carousel-control-icon"
-            />
-          </div>
-          <div class="carousel-control carousel-control-right">
-            <img
-              src="/assets/people/right-arrow.svg"
-              alt="right-arrow"
-              class="carousel-control-icon"
-            />
-          </div>
+        <div class="carousel-control carousel-control-left">
+          <img
+            src="/assets/people/left-arrow.svg"
+            alt="left-arrow"
+            class="carousel-control-icon"
+            width="75"
+            height="75"
+          />
+        </div>
+        <div class="carousel-control carousel-control-right">
+          <img
+            src="/assets/people/right-arrow.svg"
+            alt="right-arrow"
+            class="carousel-control-icon"
+            width="75"
+            height="75"
+          />
         </div>
 
         <!-- actual images -->
-        <div class="carousel-image-container">
-          <img
-            src="/assets/people/1.webp"
-            alt="carousel-image"
-            class="carousel-image"
-          />
+        <div class="carousel-image-container swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="/assets/people/1.webp"
+              alt="carousel-image"
+              class="carousel-image"
+              height="400"
+              width="400"
+            />
+          </div>
         </div>
       </div>
 
