@@ -16,3 +16,11 @@
   font-weight: 700;
   color: #000;
 }
+
+/* responsive styles */
+
+@media screen and (max-width: 640px) {
+  .content * {
+    font-size: 1rem;
+  }
+}

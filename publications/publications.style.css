@@ -46,3 +46,22 @@ li.sub-section-list-item:not(:last-child) {
 .publication-doi {
   color: #0b2b40;
 }
+
+/* responsive styles */
+
+@media screen and (max-width: 900px) {
+  .sub-section {
+    font-size: 1.8rem;
+  }
+  .publication-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .column * {
+    line-height: 1.2;
+  }
+
+  .right-col * {
+    text-align: unset;
+  }
+}
