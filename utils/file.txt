@@ -1,0 +1,35 @@
+Surendra Nagar, Ankush Jain, P. K. Singh and Ajay Kumar, “Mixed-noise robust face super-resolution through residual-learning based error suppressed nearest neighbor representation”, Information Sciences, Volume 546, Pages 121-145, Feb 2021. (SCI, IF: 5.910, ISSN: 0020-0255) DOI: https://doi.org/10.1016/j.ins.2020.08.002
+
+Ankush Jain, Surendra Nagar, P. K. Singh and J. Dhar, “EMUCF: Enhanced multistage user-based collaborative filtering through non-linear similarity for recommendation systems”, Expert Systems with Applications, Volume 161, Pages 113724, December 2020. (SCI, IF: 5.452, ISSN: 0957-4174) DOI: https://doi.org/10.1016/j.eswa.2020.113724
+
+Nitin Mishra and P. K. Singh, “FS-MLC: Feature Selection for Multi-Label Classification using Clustering in Feature Space”, Information Processing and Management, Volume 57, Issue 4, Pages 102240, July 2020. (SCI, IF: 4.79, ISSN: 0306-4573) DOI: https://doi.org/10.1016/j.ipm.2020.102240
+
+Surendra Nagar, Ankush Jain, P. K. Singh and Ajay Kumar, “Pixel-wise dictionary learning based locality-constrained representation for noise robust face hallucination”, Digital Signal Processing, Volume 99, Pages 102667, April 2020. (SCI, IF: 2.79, ISSN: 1051-2004) DOI: https://doi.org/10.1016/j.dsp.2020.102667
+
+Ankush Jain, P. K. Singh and J. Dhar, “Multi-objective item evaluation for diverse as well as novel item recommendations”, Expert Systems with Applications, Volume 139, Pages 112857, January 2020. (SCI, IF: 4.29, ISSN: 0957-4174) DOI: https://doi.org/10.1016/j.eswa.2019.112857
+
+J. Prakash, P. K. Singh and A. Kishor, “Integrating Fitness Predator Optimizer with MOPSO for Dynamic Clustering”, Progress in Artificial Intelligence, Volume 8, Issue 1, Pages 83–99, April 2019. (ESCI, IF: 2.02, ISSN: 2192-6352) DOI: https://doi.org/10.1007/s13748-018-0157-5
+
+J. Prakash and P. K. Singh, “Gravitational Search Algorithm and K-means for Simultaneous Feature Selection and Data Clustering: A Multi-Objective Approach”, Soft Computing, Volume 23, Issue 6, Pages 2083–2100, March 2019. (SCI, IF: 2.784, ISSN: 1432-7643) DOI: : https://doi.org/10.1007/s00500-017-2923-x
+
+J. Prakash and P. K. Singh, “Hybrid Gbest-guided Artificial Bee Colony for Hard Partitional Clustering”, International Journal of System Assurance Engineering and Management, Volume 9, Issue 4, Pages 911–928, August 2018. (ESCI, IF: 0.831, ISSN: 0975-6809) DOI: https://doi.org/10.1007/s13198-017-0684-7
+
+Kishor, P. K. Singh and J. Prakash, “NSABC: Non-dominated Sorting Based Multi-Objective Artificial Bee Colony Algorithm and its Application in Data Clustering”, Neurocomputing, Volume 216, Pages 514-533, December 2016. (SCI, IF: 2.08, ISSN: 0925-2312) DOI: https://doi.org/10.1016/j.neucom.2016.08.003
+
+Kusum K. Bharti and P. K. Singh, “Opposition Chaotic Fitness Mutation Based Adaptive Inertia Weight BPSO for Feature Selection in Text Clustering”, Applied Soft Computing, Volume 43, Issue C, Pages 20-34, June 2016. (SCI, IF: 2.81, ISSN: 1568-4946) DOI: https://doi.org/10.1016/j.asoc.2016.01.019
+
+Kusum K. Bharti and P. K. Singh, “Chaotic Gradient Artificial Bee Colony for Text Clustering”, Soft Computing, Volume 20, Issue 3, Pages 1113-1126, March 2016. (SCI, IF: 1.27, ISSN: 1432-7643) DOI: https://doi.org/10.1007/s00500-014-1571-7
+
+Y. Pathak, P. S. Rana, P. K. Singh, and M. Saraswat, “Protein Structure Prediction (RMSD ≤ 5 A°) Using Machine Learning Models”, International Journal of Data Mining and Bioinformatics, Volume 14, Issue 1, Pages 71-85, 2016. (SCI, IF=0.66, ISSN: 1748-5673) DOI: 10.1504/IJDMB.2016.073361
+
+Kusum K. Bharti and P. K. Singh, “Hybrid Dimension Reduction by Integrating Feature Selection with Feature Extraction Method for Text Clustering”, Expert Systems with Applications, Volume 42, Issue 6, Pages 3105-3114, April 2015. (SCI, IF: 2.24, ISSN: 0957-4174) DOI: https://doi.org/10.1016/j.eswa.2014.11.038
+
+J. Prakash and P. K. Singh, “An Effective Multi-Objective Approach for Hard Partitional Clustering”, Memetic Computing, Volume 7, Issue 2, Pages 93-104, January 2015. (SCI, IF: 1.00, ISSN: 1865-9284) DOI: https://doi.org/10.1007/s12293-014-0147-5
+
+Kusum K. Bharti and P. K. Singh, “A Three-stage Unsupervised Dimension Reduction Method for Text Clustering”, Journal of Computational Science, Volume 5. Issue 2, Pages. 156-169, March 2014. (SCI, IF: 1.23, ISSN: 1877-7503) DOI: https://doi.org/10.1016/j.jocs.2013.11.007
+
+J. C. Bansal, P. K. Singh, K. Deep, A. Nagar and M. Pant, “Special issue on bio-inspired computing: Theories and applications: Journal of computational science”, Journal of Computational Science, Volume 5, Issue 2, Pages 135-136, March 2014. (SCI, IF: 1.23, ISSN: 1877-7503) DOI: 10.1016/j.jocs.2014.02.002
+
+D. S. Rajput, P. K. Singh and M. Bhattacharya, “IQRAM: A High Dimensional Data Clustering Technique”, International Journal of Knowledge Engineering and Data Mining, Volume 2, Issue 2/3, Pages 117-136, August 2012. (Scopus, ISSN: 1755-2087) DOI: 10.1504/IJKEDM.2012.051237
+
+D. S. Rajput, P. K. Singh and M. Bhattacharya, “An Efficient and Generic Hybrid Framework for High Dimensional Data Clustering”, International Journal of Computer, Electrical, Automation, Control and Information Engineering, World Academy of Science, Engineering and Technology, Volume 64, Pages 339-344, April 2010. (Scopus, ISSN: 2010-376X)
