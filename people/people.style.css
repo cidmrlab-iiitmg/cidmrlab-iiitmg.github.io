@@ -84,6 +84,16 @@
   opacity: 1;
 }
 
+.carousel-container .carousel-control:focus-visible {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.carousel-container .carousel-control:focus {
+  pointer-events: all;
+  opacity: 1;
+}
+
 .carousel-control-left {
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
   left: 0;

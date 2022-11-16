@@ -101,21 +101,41 @@ main {
 }
 
 .page-content {
-  padding: 2rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.page-content:nth-child(2) {
+  margin-top: 2rem;
+}
+
+.page-content:last-child {
+  margin-bottom: 2rem;
 }
 
 .page-content-heading {
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
-  padding: 2rem 0;
+  line-height: 2.5;
+}
+
+.page-content-subheading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5;
 }
 
 .page-content > p {
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: calc(0.04 * 1rem);
-  margin-bottom: 2.5rem;
+}
+
+.page-content ul {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: calc(0.04 * 1rem);
 }
 
 /* footer styles */
@@ -336,7 +356,15 @@ footer .footer-title {
   }
   .page-content-heading {
     font-size: 2.5rem;
-    padding: 1.8rem 0;
+    line-height: unset;
+    margin-bottom: 1rem;
+  }
+
+  .page-content-subheading {
+    font-size: 1.5rem;
+    line-height: unset;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   .footer-container {
