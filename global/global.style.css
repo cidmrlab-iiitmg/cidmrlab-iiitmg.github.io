@@ -23,7 +23,7 @@ html {
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Roboto Mono", monospace;
   --tertiary-font: "Tiro Devanagari Hindi", serif;
-  --max-width: calc(1920px * 0.8); /* 1920 * 0.9 */
+  --max-width: calc(1920px * 0.7); /* 1920 * 0.9 */
   --global-accent: #0b2b40;
   --on-global-accent: #fff;
 }
@@ -121,7 +121,7 @@ main {
 }
 
 .page-content-subheading {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-weight: 400;
   line-height: 2.5;
 }
@@ -361,7 +361,7 @@ footer .footer-title {
   }
 
   .page-content-subheading {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     line-height: unset;
     margin-top: 2rem;
     margin-bottom: 1rem;
